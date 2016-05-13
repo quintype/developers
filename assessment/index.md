@@ -24,6 +24,6 @@ A hero image's URL can be found by appending the "hero-image-s3-key" to "http://
 
 ### Screenshots
 
-![Desktop View](./desktop.png?raw=true "Desktop View")
-![Tablet View](./tablet.png?raw=true "Tablet View")
 ![Phone View](./phone.png?raw=true "Phone View")
+![Tablet View](./tablet.png?raw=true "Tablet View")
+![Desktop View](./desktop.png?raw=true "Desktop View")
