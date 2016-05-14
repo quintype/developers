@@ -22,8 +22,19 @@ The app has three views, Desktop, Tablet and Phone. You are required to build th
 
 A hero image's URL can be found by appending the "hero-image-s3-key" to "http://quintype-01.imgix.net/". For example, the hero image whose s3 key is "quintype-demo/1234/foo.png" is "http://quintype-01.imgix.net/quintype-demo/1234/foo.png"
 
+### Examples
+
+You can see a live site using the same APIs here: http://sketches.quintype.com
+
+### Deployment
+
+This is an extra credit section. Create a docker container that is capable of serving your app. The container should serve the application at port 3000, including compiled and minified CSS.
+
 ### Screenshots
+
+These are screenshots (of YouTube.com), demonstrating how the above the fold content should look.
 
 ![Phone View](./phone.png?raw=true "Phone View")
 ![Tablet View](./tablet.png?raw=true "Tablet View")
+
 ![Desktop View](./desktop.png?raw=true "Desktop View")
