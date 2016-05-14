@@ -11,8 +11,9 @@ This exercise should take roughly 3 hours for the code and project setup, and 4 
 You can find our APIs documented in [swagger format](https://itsman.quintype.com/sketches-swagger.json). Please note the API host is http://sketches.quintype.com
 
 The relevant APIs are:
-* /api/v1/stories for getting the stories for display
-* /api/v1/config for getting the content to show in the menu
+
+* /api/v1/stories for getting the stories for display. 
+* /api/v1/config for getting the content to show in the menu.
 
 ### Responsive Design
 
@@ -30,11 +31,16 @@ You can see a live site using the same APIs here: http://sketches.quintype.com
 
 This is an extra credit section. Create a docker container that is capable of serving your app. The container should serve the application at port 3000, including compiled and minified CSS.
 
+### Rate that the Data Changes
+
+The actual stories change rather frequently, and a user can tolerate seeing stories that are up to two minutes old. The menu on the other hand, changes very infrequently. The user can tolerate not seeing a new section appear in the menu for nearly 10 minutes.
+
 ### Screenshots
 
 These are screenshots (of YouTube.com), demonstrating how the above the fold content should look.
 
 ![Phone View](./phone.png?raw=true "Phone View")
+
 ![Tablet View](./tablet.png?raw=true "Tablet View")
 
 ![Desktop View](./desktop.png?raw=true "Desktop View")
