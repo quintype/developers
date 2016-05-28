@@ -2,11 +2,11 @@
 
 ### Technical Overview
 
-The preview functionality is implemented with a combination of the backend editor, and the front end UI. The front end page has to implement two routes. `/preview/story` and `/preview/home`. The editor fetches this page via either HTTP or HTTPs, then served in an IFrame on the backend. As the story is updated in the editor, the story is passed to the page via the message API, and the page is expected to rerender on the Front End.
+The preview functionality is implemented with a combination of the backend editor, and the front end UI. The front end page has to implement two routes. `/preview/story` and `/preview/home`. The editor fetches this page via either HTTP or HTTPS, then served in an IFrame on the editor (via HTTPS). As the story is updated in the editor, the story is passed to the page via the message API, and the page is expected to rerender on the Front End.
 
 ### HTTPs Only
 
-As the content is loaded via HTTPs, any HTTP content (external JS, etc...) will not render.
+As the content is loaded via HTTPS, any HTTP content (external JS, etc...) will not render.
 
 ### Example
 
