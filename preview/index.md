@@ -25,3 +25,10 @@ var StoryPreview = (function() {
   });
 });
 ```
+
+### Testing
+
+Head to */preview/home*, then paste the following in the console. The page should immediately render with the sample story.
+
+```javascript
+window.postMessage({story: {"author-name":"Tapan Bhat","headline":"The Greatest !","slug":"sports/2016/06/08/the-greatest","last-published-at":1465407509866,"alternative":{},"sections":[{"id":82,"name":"Sports"}],"hero-image-metadata":{"width":2133,"height":1906,"focus-point":[988,258]},"published-at":1465407509866,"id":"1d2fc836-4113-4ae1-8735-377167664892","hero-image-s3-key":"quintype-demo/2016-06/cca8f31e-9264-4ee2-9af0-08eb53be2a26/ABP-1.jpg","author-id":2041,"first-published-at":1465407509866,"story-template":"photo"}, "action": "reloadStory"}, window.location.origin)```
