@@ -4,11 +4,11 @@ This repository is a knowledge base for developers working on projects backed by
 
 ### Basic Concepts
 
-The [Stories, Cards and Elements](./stories-cards-and-elements.md) has an explanation of the basic building blocks of a Quintype story.
+The [Stories, Cards and Elements](./stories-cards-and-elements.md) has an explanation of the basic building blocks of a Quintype story. (WIP)
 
 ### API Documentation
 
-The [API Documentation](https://itsman.quintype.com/sketches-swagger.json) is available in [swagger](http://swagger.io) format. This can be pasted into the [Swagger Editor](http://editor.swagger.io) to see a live view of this.
+The [API Documentation](https://itsman.quintype.com/sketches-swagger.json) is available in [swagger](http://swagger.io) format. This can be pasted into the [Swagger Editor](http://editor.swagger.io) to see a live view of the documentation.
 
 ### Preview
 
