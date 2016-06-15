@@ -35,3 +35,5 @@ Story elements may also have a *"subtype"* field, which gives hints on rendering
 ### Story Types
 
 Story type are predefined templates which can be used to write articles of various domains ranging from photo blogs, listicles, video stories, blogs etc. Story types give a definite structure and a "starting point" to authors when they starts writing a story. Apart from this, they also help in predictive analytics. Data can be derived and studied based on audience engagement on various story types for different domains (eg: A photo story on wildlife may get higher engagement than a text story).
+
+A story type may give subtle hints to the behaviour of the story. For example, a *live-blog* may choose to auto update every 30seconds.
