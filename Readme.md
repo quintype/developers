@@ -4,7 +4,7 @@ This repository is a knowledge base for developers working on projects backed by
 
 ### Basic Concepts
 
-The [Stories, Cards and Elements](./stories-cards-and-elements.md) has an explanation of the basic building blocks of a Quintype story. (WIP)
+The [Stories, Cards and Elements](./stories-cards-and-elements.md) has an explanation of the basic building blocks of a Quintype story. The [Stacks](./stacks.md) documentation explains the easiest way to group stories together for various widgets on the page. [Story Collections](./story-collections.md) can be used for more advanced grouping, and for building of logical entities such as Magazine Issues or Courses.
 
 ### API Documentation
 
