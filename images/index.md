@@ -2,11 +2,11 @@
 
 Quintype currently uses [Imgix](https://www.imgix.com) to display images in various aspect ratios.
 
-### base url
+### Base Url
 
 A image's URL can be obtained by appending the *"image-s3-key"* to "http://quintype-01.imgix.net/". For example, the hero image whose s3 key is "quintype-demo/1234/foo.png" is "http://quintype-01.imgix.net/quintype-demo/1234/foo.png". This is the image in it's original resolution, and can be transformed using any of [Imgix's Transforms](https://docs.imgix.com).
 
-### focus point
+### Focus Point
 
 Our editor allows the placement of a focus point on any image. The placement of a focus point guarantees that that point is always present in the viewport when the image is cropped, across different aspect ratios.
 
@@ -21,3 +21,18 @@ var FocusedImage = require("quintype-js").FocusedImage;
 var image = new FocusedImage('quintype-demo/1234/foo.png', metadata);
 var output_url = "http://quintype-01.imgix.net/" + image.path([16, 9], {w: 640});
 ```
+
+### Recommended Transforms
+
+In order to save bandwidth, and provide a good experience, we suggest you use the following transforms:
+
+```javascript
+var transforms = {
+  w: 640,       // actual width
+  q: 60,        // quality
+  auto: format  // use WebP when available
+  fm: pjpg      // fallback to progressive jpeg
+};
+```
+
+The list of all transforms can be found in the [Imgix Documentatation](https://docs.imgix.com).

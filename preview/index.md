@@ -32,3 +32,9 @@ Head to */preview/home*, then paste the following in the console. The page shoul
 
 ```javascript
 window.postMessage({story: {"author-name":"Tapan Bhat","headline":"The Greatest !","slug":"sports/2016/06/08/the-greatest","last-published-at":1465407509866,"alternative":{},"sections":[{"id":82,"name":"Sports"}],"hero-image-metadata":{"width":2133,"height":1906,"focus-point":[988,258]},"published-at":1465407509866,"id":"1d2fc836-4113-4ae1-8735-377167664892","hero-image-s3-key":"quintype-demo/2016-06/cca8f31e-9264-4ee2-9af0-08eb53be2a26/ABP-1.jpg","author-id":2041,"first-published-at":1465407509866,"story-template":"photo"}, "action": "reloadStory"}, window.location.origin)```
+
+The */preview/story* should also behave similarly, but render the story.
+
+### Isomorphic Rendering
+
+In order to render from both the server side, and the client side, it is suggested that you use a templating language capable of Isomorphic Rendering. Some suggestions are [Liquid Templates](https://shopify.github.io/liquid) or [Twig](http://twig.sensiolabs.org)
