@@ -10,7 +10,7 @@ A image's URL can be obtained by appending the *"image-s3-key"* to "http://quint
 
 Our editor allows the placement of a focus point on any image. The placement of a focus point guarantees that that point is always present in the viewport when the image is cropped, across different aspect ratios.
 
-It is recommended that the focus point is used in conjuncture with the *picture* spec of HTML5, in order to show images at different aspect ratios on different devices. Using an `object-fill: cover` will further center the image.
+It is recommended that the focus point is used in conjuncture with the *picture* spec of HTML5, in order to show images at different aspect ratios on different devices. Using an `object-fit: cover;` will further center the image.
 
 The refrence implementation for the focus point algorithm can be found in the [javascript implementation](https://github.com/quintype/quintype-js/blob/master/lib/focused_image.js).
 
