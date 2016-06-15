@@ -16,4 +16,4 @@ The [Preview](preview/index.md) section has information on getting preview to wo
 
 ### Image Sizes
 
-The [Image](image/index.md) section has information on resizing images hosted by the Quintype platform.
+The [Image](images/index.md) section has information on resizing images hosted by the Quintype platform.
