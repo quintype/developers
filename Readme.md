@@ -14,8 +14,8 @@ The [API Documentation](https://itsman.quintype.com/sketches-swagger.json) is av
 
 ### Preview
 
-The [Preview](preview/index.md) section has information on getting preview to work.
+The [Preview](preview.md) section has information on getting preview to work.
 
 ### Image Sizes
 
-The [Image](images/index.md) section has information on resizing images hosted by the Quintype platform.
+The [Image](images.md) section has information on resizing images hosted by the Quintype platform.
