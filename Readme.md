@@ -1,3 +1,8 @@
+---
+layout: page
+title: Documentation
+permalink: /docs
+---
 # Quintype for Developers
 
 This repository is a knowledge base for developers working on projects backed by the Quintype platform.

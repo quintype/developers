@@ -1,3 +1,8 @@
+---
+layout: page
+title: Stories Cards and Elements
+permalink: /docs/stories-cards-and-elements
+---
 # Stories, Cards and Elements
 
 Quintype is a structured CMS system. A story is comprised of cards, and cards of story elements.

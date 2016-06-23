@@ -1,3 +1,8 @@
+---
+layout: page
+title: Images
+permalink: /docs/images
+---
 # Images
 
 Quintype currently uses [Imgix](https://www.imgix.com) to display images in various aspect ratios.

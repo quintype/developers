@@ -1,3 +1,8 @@
+---
+layout: page
+title: Developer Assessment
+permalink: /assessment
+---
 # Sample App Question
 
 You are required to build a simple one screen news app.

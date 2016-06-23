@@ -1,3 +1,8 @@
+---
+layout: page
+title: Story Groups
+permalink: /docs/story-groups
+---
 # Story Groups
 
 *story-group* is the most important parameter to the stories API. This parameter indicates which set of stories you'd like to fetch. Currently, the story group can either be *top*, or *stack-{{id}}*, corresponding to top stories and stacks respectively.

@@ -1,3 +1,8 @@
+---
+layout: page
+title: Preview
+permalink: /docs/preview
+---
 # Preview
 
 ### Technical Overview
