@@ -5,7 +5,7 @@ permalink: /docs/story-groups
 ---
 # Story Groups
 
-*story-group* is the most important parameter to the stories API. This parameter indicates which set of stories you'd like to fetch. Currently, the story group can either be *top*, or *stack-{{id}}*, corresponding to top stories and stacks respectively.
+*story-group* is the most important parameter to the stories API. This parameter indicates which set of stories you'd like to fetch. Currently, the story group can either be *top*, or *stack-\{{id}}*, corresponding to top stories and stacks respectively.
 
 Story groups that are backed by a sorter can be sorted by
 
@@ -25,4 +25,4 @@ Various story groups behave slightly differently. Each story group typically has
 | *story-group* | *"Home"* | *section* |
 | :-----------: | -------- | --------- |
 | top | Stories as per sorter, then stories reverse chronologically | Stories as per sorter, then stories in that section reverse chronologically |
-| stack-{{id}} | Stories as per sorter | If the sorter has stories, then it returns the sorted stories. If the sorter is empty, it will return stories for the same stack in the "Home" section |
+| stack-id | Stories as per sorter | If the sorter has stories, then it returns the sorted stories. If the sorter is empty, it will return stories for the same stack in the "Home" section |

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Developer Assessment
-permalink: /assessment
+permalink: /docs/assessment
 ---
 # Sample App Question
 
