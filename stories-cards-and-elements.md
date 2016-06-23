@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stories Cards and Elements
-permalink: /docs/stories-cards-and-elements
+permalink: /docs/stories-cards-and-elements.md
 ---
 # Stories, Cards and Elements
 
