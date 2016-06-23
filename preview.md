@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Preview
-permalink: /docs/preview.md
+permalink: /docs/preview
 ---
 # Preview
 

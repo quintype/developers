@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Story Groups
-permalink: /docs/story-groups.md
+permalink: /docs/story-groups
 ---
 # Story Groups
 

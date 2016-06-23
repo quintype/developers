@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Story Collections
-permalink: /docs/story-collections.md
+permalink: /docs/story-collections
 ---
 # Story Collections
 

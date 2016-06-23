@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stacks
-permalink: /docs/stacks.md
+permalink: /docs/stacks
 ---
 # Stacks
 

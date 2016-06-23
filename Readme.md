@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Documentation
-permalink: /docs/home.md
+permalink: /docs/home
 ---
 # Quintype for Developers
 

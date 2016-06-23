@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Images
-permalink: /docs/images.md
+permalink: /docs/images
 ---
 # Images
 
